@@ -1,0 +1,38 @@
+.about-section {
+  padding: 4.5rem 1.5rem;
+  background-color: #f9fafb;
+}
+
+.about-container {
+  max-width: 1200px;
+  margin: auto;
+  display: grid;
+  grid-template-columns: 1.1fr 0.9fr;
+  gap: 3rem;
+  align-items: center;
+}
+
+@media (max-width: 900px) {
+  .about-container {
+    grid-template-columns: 1fr;
+  }
+}
+
+.about-left h2 {
+  font-size: 2.2rem;
+  margin-bottom: 1.2rem;
+  color: #111827;
+}
+
+.about-left p {
+  font-size: 1rem;
+  line-height: 1.8;
+  color: #4b5563;
+  margin-bottom: 1rem;
+}
+
+.about-right img {
+  width: 100%;
+  border-radius: 1.25rem;
+  box-shadow: 0 20px 35px rgba(0, 0, 0, 0.15);
+}

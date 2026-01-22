@@ -1,0 +1,110 @@
+.projects-section {
+  padding: 5rem 2rem;
+  background: #ffffff;
+}
+
+/* HEADER */
+.projects-header {
+  text-align: center;
+  max-width: 700px;
+  margin: auto;
+  margin-bottom: 3rem;
+}
+
+.projects-tag {
+  display: inline-block;
+  background: #e0e7ff;
+  color: #1d4ed8;
+  padding: 0.3rem 0.9rem;
+  border-radius: 999px;
+  font-size: 0.85rem;
+  margin-bottom: 0.5rem;
+}
+
+.projects-header h2 {
+  font-size: 2.5rem;
+  font-weight: 800;
+  margin: 0.5rem 0;
+}
+
+.projects-header p {
+  color: #4b5563;
+  font-size: 1.05rem;
+}
+
+/* GRID */
+.projects-grid {
+  display: grid;
+  gap: 2rem;
+}
+
+@media (min-width: 768px) {
+  .projects-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+/* CARD */
+.project-card {
+  border-radius: 18px;
+  overflow: hidden;
+  box-shadow: 0 15px 40px rgba(0,0,0,0.12);
+  transition: transform 0.4s ease;
+}
+
+.project-card:hover {
+  transform: translateY(-12px);
+}
+
+/* IMAGE */
+.project-image {
+  height: 320px;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+
+/* CATEGORY */
+.project-type {
+  position: absolute;
+  top: 15px;
+  left: 15px;
+  background: #2563eb;
+  color: white;
+  padding: 0.3rem 0.8rem;
+  border-radius: 999px;
+  font-size: 0.75rem;
+  z-index: 2;
+}
+
+/* OVERLAY */
+.project-overlay {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(
+    to top,
+    rgba(0,0,0,0.75),
+    rgba(0,0,0,0.2)
+  );
+  opacity: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding: 1.5rem;
+  color: white;
+  transition: opacity 0.4s ease;
+}
+
+.project-image:hover .project-overlay {
+  opacity: 1;
+}
+
+.project-overlay h3 {
+  font-size: 1.4rem;
+  font-weight: 700;
+}
+
+.project-overlay p {
+  font-size: 0.9rem;
+  opacity: 0.9;
+}
