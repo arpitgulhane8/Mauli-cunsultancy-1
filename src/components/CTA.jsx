@@ -18,7 +18,7 @@ const CTA = () => {
           <a href="#contact" className="cta-btn primary">
             <FaEnvelope /> Get Free Consultation
           </a>
-          <a href="tel:+919518717206" className="cta-btn secondary">
+          <a href="tel:+91 91562 44799" className="cta-btn secondary">
             <FaPhoneAlt /> Call Now
           </a>
         </div>

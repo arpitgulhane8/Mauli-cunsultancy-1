@@ -44,7 +44,7 @@ const HeroSlider = () => {
 
             <div className="hero-buttons">
               <a href="#contact" className="btn primary">Get Quote</a>
-              <a href="tel:+919518717206" className="btn outline">Call Now</a>
+              <a href="tel:+91 91562 44799" className="btn outline">Call Now</a>
             </div>
           </div>
         </div>
