@@ -24,7 +24,7 @@ const Contact = () => {
 
           <div className="info-item">
             <FaPhoneAlt className="info-icon" />
-            <span>+91 95187 17206</span>
+            <span>+91 91562 44799</span>
           </div>
 
           <div className="info-item">

@@ -19,7 +19,7 @@ const Footer = () => (
       {/* CONTACT */}
       <div className="footer-box">
         <h3>Contact Us</h3>
-        <p>📞 +91 95187 17206</p>
+        <p>📞 +91 91562 44799</p>
         <p>📧 mauliconsultancy@gmail.com</p>
         <p>⏰ Mon – Sat : 9:00 AM – 7:00 PM</p>
       </div>
