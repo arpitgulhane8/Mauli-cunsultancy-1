@@ -13,7 +13,7 @@ const projects = [
     ]
   },
   {
-    title: 'Commercial Complex',
+    title: 'Layout',
     location: 'Amravati, Maharashtra',
     type: 'Commercial',
     images: [
