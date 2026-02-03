@@ -4,7 +4,7 @@ import '../Styles/project.css';
 const projects = [
   {
     title: 'Amol City',
-    location: 'Nagpur, Maharashtra',
+    location: 'Dhamangaon, Maharashtra',
     type: 'Residential',
     images: [
       'project1-1.jpeg',
@@ -14,7 +14,7 @@ const projects = [
   },
   {
     title: 'Commercial Complex',
-    location: 'Pune, Maharashtra',
+    location: 'Amravati, Maharashtra',
     type: 'Commercial',
     images: [
     'project2-1.jpeg',
