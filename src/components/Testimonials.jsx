@@ -7,7 +7,7 @@ const testimonials = [
     name: "Bhikesh Malani",
     role: "Residential Project Owner",
     feedback:
-      "Mauli Consultancy & Services delivered our home project on time with excellent quality. Their planning and execution were outstanding.",
+      "Mauli Consultancy & Developers delivered our home project on time with excellent quality. Their planning and execution were outstanding.",
   },
   {
     name: "Gajanan Shingare",
