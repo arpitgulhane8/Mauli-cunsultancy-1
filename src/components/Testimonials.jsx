@@ -4,19 +4,19 @@ import { FaQuoteLeft } from "react-icons/fa";
 
 const testimonials = [
   {
-    name: "Rahul Patil",
+    name: "Bhikesh Malani",
     role: "Residential Project Owner",
     feedback:
       "Mauli Consultancy & Services delivered our home project on time with excellent quality. Their planning and execution were outstanding.",
   },
   {
-    name: "Sneha Kulkarni",
+    name: "Gajanan Shingare",
     role: "Commercial Property Owner",
     feedback:
       "Very professional team. Clear communication, accurate cost estimation, and great site supervision throughout the project.",
   },
   {
-    name: "Amit Deshmukh",
+    name: "Ali Asgar Mohmmad Hussain Bohara",
     role: "Factory Construction Client",
     feedback:
       "Strong technical knowledge and reliable service. I highly recommend Mauli Consultancy for civil and construction work.",
