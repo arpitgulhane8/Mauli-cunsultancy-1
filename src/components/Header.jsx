@@ -19,7 +19,7 @@ const Header = () => {
 
         {/* LOGO */}
         <div className="nav-logo">
-          <h1><span>Mauli</span> Consultancy</h1>
+          <span>Mauli</span> Consultancy
         </div>
 
         {/* NAV LINKS */}
