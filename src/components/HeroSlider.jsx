@@ -39,7 +39,8 @@ const HeroSlider = () => {
         >
           <div className="hero-content">
             <span className="accent-line"></span>
-            <h1>{slide.title}</h1>
+            <h1>Mauli Consultancy & Services</h1>
+            <h2>{slide.title}</h2>
             <p>{slide.slogan}</p>
 
             <div className="hero-buttons">
