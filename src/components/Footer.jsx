@@ -31,7 +31,7 @@ const Footer = () => (
           Mauli Consultancy & Services<br />
           Near Gurunanak Mangal Karyalaya,<br />
           Guruji Ward,<br />
-          Arvi, Maharashtra – 440001<br />
+          Arvi, Maharashtra – 442201<br />
           India
         </p>
       </div>
